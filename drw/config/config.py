@@ -1,8 +1,8 @@
 from xgboost import XGBRegressor
 class Config:
-    TRAIN_PATH = "E:/GIT PROJECT/drw/kaggle/input/drw-crypto-market-prediction/train.parquet"
-    TEST_PATH = "E:/GIT PROJECT/drw//kaggle/input/drw-crypto-market-prediction/test.parquet"
-    SUBMISSION_PATH = "E:/GIT PROJECT/drw//kaggle/input/drw-crypto-market-prediction/sample_submission.csv"
+    TRAIN_PATH = "../kaggle/input/drw-crypto-market-prediction/train.parquet"
+    TEST_PATH = "../kaggle/input/drw-crypto-market-prediction/test.parquet"
+    SUBMISSION_PATH = "../kaggle/input/drw-crypto-market-prediction/sample_submission.csv"
 
     FEATURES = [
         "X863", "X856", "X598", "X862", "X385", "X852", "X603", "X860", "X674",
